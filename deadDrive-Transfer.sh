@@ -81,7 +81,6 @@ isFile() {
     echo "`getDate` $STRIPPED" >> log-FAILURE.log
     ((FILEERROR++))
   fi
-  sleep .1
 }
 
 # Define our function for if the value is a directory
